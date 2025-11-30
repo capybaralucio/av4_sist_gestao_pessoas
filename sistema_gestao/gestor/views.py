@@ -15,4 +15,4 @@ class TarefaViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend]
 
 
-    filterset_fields = ['titulo', 'status', 'prioridade', 'projeto']
+    filterset_fields = ['projeto']
